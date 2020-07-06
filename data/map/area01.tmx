@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="57">
+ <tileset firstgid="1" source="../../../area01_level_tiles.tsx"/>
+ <tileset firstgid="141" source="../../../mozaik.tsx"/>
+ <imagelayer id="9" name="Parallax_layer1">
+  <image source="../img/area01_bkg0.png" width="640" height="480"/>
+ </imagelayer>
+ <layer id="1" name="foreground" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAAAAAAAAAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXAAAAmAAAAJkAAAAYAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKYAAACnAAAAqAAAABgAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkwAAAJQAAACVAAAAAAAAAKUAAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACRAAAAkgAAAAAAAACiAAAAowAAAKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAI8AAACQAAAAAAAAAKAAAAChAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAABgAAAAAAAAAjQAAAI4AAAAAAAAAngAAAJ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAACcAAAAnQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAA
+  </data>
+ </layer>
+ <objectgroup id="5" name="Entities">
+  <object id="2" name="mainPlayer" x="20" y="94" width="32" height="64">
+   <properties>
+    <property name="framewidth" value="64"/>
+    <property name="image" value="gripe_run_right"/>
+   </properties>
+  </object>
+  <object id="49" name="CoinEntity" x="121.402" y="356.95" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="50" name="CoinEntity" x="223.182" y="328.597" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="51" name="CoinEntity" x="321.327" y="292.974" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="52" name="CoinEntity" x="425.287" y="263.167" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="53" name="CoinEntity" x="519.797" y="233.36" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+  <object id="54" name="CoinEntity" x="585.227" y="170.838" width="32" height="32">
+   <properties>
+    <property name="framewidth" value="32"/>
+    <property name="image" value="spinning_coin_gold"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="collision">
+  <object id="18" x="95.9637" y="382.401" width="58.8868" height="50.1628"/>
+  <object id="19" x="205.013" y="353.321" width="48.7088" height="47.9818"/>
+  <object id="20" x="303.158" y="318.425" width="45.0738" height="50.8898"/>
+  <object id="21" x="402.757" y="287.891" width="54.5248" height="49.4358"/>
+  <object id="25" x="2.18099" y="160.666" width="61.7948" height="319.879"/>
+  <object id="26" x="65.4298" y="448.557" width="573.601" height="31.9879"/>
+  <object id="27" x="66.1568" y="1.45399" width="571.42" height="61.7948"/>
+  <object id="28" x="567.785" y="195.562" width="49.4358" height="48.7088"/>
+  <object id="56" x="503.082" y="258.811" width="14.5399" height="47.2548"/>
+ </objectgroup>
+</map>
