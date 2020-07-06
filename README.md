@@ -7,7 +7,7 @@ Finish the game under 10 seconds.
 
 To build, be sure you have [node](http://nodejs.org) installed. Clone the project:
 
-    git clone https://github.com/melonjs/boilerplate.git
+    git clone https://github.com/SalonDesDevs/javaskript
 
 Then in the cloned directory, simply run:
 
