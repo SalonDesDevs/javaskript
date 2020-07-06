@@ -1,5 +1,8 @@
 JavaSkript - A gamejam project from SDD Meetup 2020
 -------------------------------------------------------------------------------
+## What's the goal?
+Finish the game under 10 seconds.
+
 ## To run distribution
 
 To build, be sure you have [node](http://nodejs.org) installed. Clone the project:
